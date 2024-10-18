@@ -4,6 +4,7 @@ import About from '@/app/components/About';
 import Experience from '@/app/components/Experience';
 import Skills from '@/app/components/Skills';
 import Contact from "@/app/components/Contact";
+import Formation from "@/app/components/Formation";
 import '@/app/styles/globals.css';
 
 const Home: React.FC = () => {
@@ -20,12 +21,13 @@ const Home: React.FC = () => {
             <main className="container mx-auto px-4 mt-4">
                 <About />
                 <Experience />
+                <Formation />
                 <Skills />
                 <Contact />
             </main>
 
             <footer className="text-center mt-8 border-t border-gray-700 pt-4">
-                <p className="text-sm">© 2024 Bryan Lhomme. Tous droits réservés.</p>
+                <p className="text-sm">© 2024 Bryan Lhomme.</p>
             </footer>
         </div>
     );
